@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Style Guide</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/flexbox.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
+
+  </head>
+
+  <body>
+
+    <h1>Home Cooking Style Guide Template</h1>
+
+
+
+
+    <nav class="nav-main box">
+
+  			<a href="http://www.sfu.ca/~zjzhong/iat339/po1-indi/wireframes/" class="nav-main-item bg2 box-item-nav">Wireframes</a>
+  			<a href="http://www.sfu.ca/~zjzhong/iat339/po1-indi/citations/" class="nav-main-item bg3 box-item-nav">Citation</a>
+        <a href="home.html" class="nav-main-item bg3 box-item-nav">Home</a>
+
+
+
+  		</nav>
+
+
+
+    <p>ABOUT US : A platform that helps you find a chef online to cook at your home.</p>
+
+
+    <nav>
+
+      <p>
+        Go to:
+        <a href="#interactive_elements" class = "text">Interactive Elements</a>,
+        <a href="#text_elements" class = "text">Text Elements</a>,
+        <a href="#combined_elements" class = "text" >Combined Elements</a>,
+      </p>
+
+    </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+        <h2>Navigation Button</h2>
+        <h3> - Navigation with words.(button needs to be hovered )<h3>
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+        <h4>Rendered element:</h4>
+        <nav class="button-nav">
+        <a class="button" href="#">Button</a>
+        </nav>
+      </section>
+
+
+
+      <section>
+        <h2>In-text link</h2>
+        <h3> - text in the paragraph.(text will became to italic and changes colour) <h3>
+        <h4>CSS selector:</h4>
+        <p> .in-text </p>
+        <h4>Sample code:</h4>
+              <code>&lt;a href="#"&gt;an in-text link&lt;/a&gt;</code>
+        <h4>Rendered element:</h4>
+              <a href="#" class = "in-text">an in-text link</a>
+      </section>
+
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+        <h3> - Submit button will be orange, reset button will be gray <h3>
+        <h4>CSS selector:</h4>
+        <p> .button-submit & .button-reset </p>
+        <h4>Sample Code:</h4>
+        <li>
+            <code>  &lt;button class="button-submit"&gt;Submit&lt;/button&gt;</code>
+          </li>
+            <code>  &lt;button class="button-submit"&gt;Submit&lt;/button&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <button class = "button-submit">Submit</button>
+        <button class = "button-reset">Reset</button>
+      </section>
+
+
+
+      <section>
+        <h2>Text Input Field</h2>
+        <h3> - Enter the location or address.<h3>
+          <h4>CSS selector:</h4>
+          <p> .box-length{ </p>
+          <h4>Sample Code:</h4>
+          <li>
+              <code> &lt;label for="location"&gt;Address&lt;/label&gt; </code>
+            </li>
+              <code> &lt;input type="text" id="form-name"class="box-length" placeholder="example: 123 apple st, Vancouver, BC."&gt; </code>
+
+
+          <h4>Rendered element:</h4>
+
+          <form method="post" action="#">
+          				<label for="location">Address</label>
+          				<input type="text" id="form-name"class="box-length" placeholder="example: 123 apple st, Vancouver, BC.">
+      </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <section>
+        <h2>Headings</h2>
+        <h3> - Hind-SemiBold is used for the heading <h3>
+        <h4>CSS selector:</h4>
+        <p> h5 </p>
+        <h4>Sample code:</h4>
+              <code>&lt;h5&gt;Dishes&lt;h5&gt;</code>
+        <h4>Rendered element:</h4>
+              <h5>Dishes<h5>
+      </section>
+
+
+
+      <section>
+        <h2>Paragraphs</h2>
+        <h3> - Hind-Regular is used for the paragraphs.<h3>
+        <h4>CSS selector:</h4>
+        <p> .paragraphs </p>
+        <h4>Sample code:</h4>
+            <code> &lt;p class="paragraphs"&gt;In order to enjoy our services, you need to register an account, the user name will be your cellphone number.  After you entered the code that we send to your mobile phone, you will be registered the account successfully.  You can check your order at your profile, if you want to cancel or change your order please contact us immediately.&lt;p1&gt;</code>
+        <h4>Rendered element:</h4>
+              <p class="paragraphs">In order to enjoy our services, you need to register an account, the user name will be your cellphone number.  After you entered the code that we send to your mobile phone, you will be registered the account successfully.  You can check your order at your profile, if you want to cancel or change your order please contact us immediately.<p1>
+      </section>
+
+
+
+      <section>
+        <h2>Bulleted Lists</h2>
+        <h3> - Hind-Regular is used for the bulleted-lists.<h3>
+        <h4>CSS selector:</h4>
+        <p> .bulleted-lists </p>
+        <h4>Sample code:</h4>
+        <code> &lt;ul&gt; &lt;li class="bulleted-lists"&gt;Home page&lt;/li&gt; &lt;/ul&gt;</code>
+        <h4> Rendered element: </h4>
+        <ul>
+          <li class="bulleted-lists">Home page</li>
+          <li class="bulleted-lists">About</li>
+          <li class="bulleted-lists">Location</li>
+          <li class="bulleted-lists">Membership</li>
+        </ul>
+      </section>
+
+
+      <section>
+        <h2>Numbered Lists</h2>
+        <h3> - Hind-Regular is used for the numbered lists <h3>
+        <h4>CSS selector:</h4>
+        <p> .numbered-lists </p>
+        <h4>Sample code:</h4>
+        <code> &lt;ol&gt; &lt;li class="numbered-lists"&gt;Home page&lt;/li&gt; &lt;/ol&gt;</code>
+        <h4> Rendered element: </h4>
+
+        <ol>
+          <li class="numbered-lists">Home page</li>
+          <li class="numbered-lists">About</li>
+          <li class="numbered-lists">Location</li>
+          <li class="numbered-lists">Membership</li>
+        </ol>
+      </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+
+      <section>
+
+
+        <h2>Main Navigation</h2>
+        <h3> - Hind-semiBold is used for the navigation bar <h3>
+        <h4>CSS selector:</h4>
+        <p> .nav-main-i & .bg10 </p>
+        <h4>Sample code:</h4>
+        <li>  <code> &lt;nav class="main-nav-top box"&gt;</code></li>
+        <code>&lt;a href="#"class="nav-main-i bg10 top-nav"&gt;Home Page&lt;/a&gt;</code>
+        <h4> Rendered element: </h4>
+
+
+        <nav class="main-nav-top box">
+          	<div class="box">
+          <a href="#" class="nav-main-i bg10 top-nav">Home page</a>
+          <a href="#" class="nav-main-i bg10 top-nav">About</a>
+          <a href="#" class="nav-main-i bg10 top-nav">Location</a>
+          <a href="#" class="nav-main-i bg10 top-nav">Membership</a>
+</div>
+        </nav>
+
+
+
+      </section>
+
+
+
+      <section>
+        <h2>Product Listing</h2>
+        <h3> - Food images <h3>
+        <h4>CSS selector:</h4>
+       <p>.Dishes</p>
+        <h4>Sample code:</h4>
+        <li>
+
+        <code>&lt;img src="img/food1.jpg" alt="food1" class="style"&gt;&lt;/a&gt;</code>
+
+        <h4> Rendered element: </h4>
+        <ul class="Dishes">
+         <li>
+           <a href="#">
+             <img src="img/food1.jpg" alt="food1" class="style"></a>
+             <h4>Item Title $15</h4>
+         </li>
+
+         <li>
+           <a href="#">
+             <img src="img/food2.jpg" alt="food2" class="style"></a>
+             <h4>Food name $20</h4>
+         </li>
+
+         <li>
+           <a href="#">
+             <img src="img/food3.jpg" alt="food3" class="style"></a>
+                <h4>Food name $20</h4>
+         </li>
+
+         <li>
+           <a href="#">
+             <img src="img/food4.jpg" alt="food4" class="style"></a>
+             <h4>Food name $20</h4>
+         </li>
+
+         <li>
+           <a href="#">
+             <img src="img/food5.jpg" alt="food5" class="style"></a>
+             <h4>Food name $10</h4>
+         </li>
+
+         <li>
+           <a href="#">
+             <img src="img/food6.jpg" alt="food6" class="style"></a>
+             <h4>Food name $15</h4>
+         </li>
+       </ul>
+      </section>
+
+
+
+      <section>
+        <h2>Grid Structure</h2>
+        <h3> - 5 blocks grid <h3>
+       <h4>CSS selector:</h4>
+       <p>.grid-col-1of5 block</p>
+
+       <h4>Sample code:</h4>
+       <code>&lt;div class="grid-col-1of5-block"&gt;&lt;div&gt;</code>
+
+       <h4>Rendered element:</h4>
+       <div class="container">
+          <div class="grid-col-1of5 block"></div>
+          <div class="grid-col-1of5 block"></div>
+          <div class="grid-col-1of5 block"></div>
+          <div class="grid-col-1of5 block"></div>
+          <div class="grid-col-1of5 block"></div>
+       </div>
+      </section>
+
+
+    <section>
+
+           <h2>Colour Swatches</h2>
+           <h3>-Blue & Orange </h3>
+           <h4>CSS selector:</h4>
+           <p>.colour</p>
+           <h4>Sample code:</h4>
+           <code>&lt;div class="colour-box teal"&gt;&lt;/div&gt;</code>
+           <h4>Rendered element:</h4>
+
+           <div class="colour-box teal"></div>
+
+           <div class="colour-box orange"></div>
+       </section>
+
+
+  </body>
+</html>

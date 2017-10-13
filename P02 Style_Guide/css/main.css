@@ -1,0 +1,342 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+
+p{
+  font-family: sans-serif;
+  color: grey;
+}
+
+.center{
+text-align: center;
+
+}
+
+.header_pad{
+padding-left: 7rem;
+
+}
+
+.text-width{
+max-width: 25rem;
+padding-top: 3rem;
+}
+
+.text_width2{
+max-width: 25rem;
+
+}
+
+
+h1{
+  text-align: center;
+    color:orange;
+}
+
+h2{
+
+    color:orange;
+    size: .75rem;
+    padding-top: 2rem;
+}
+
+h3 {
+
+  color:grey;
+  size: .5rem;
+  padding-top: .5rem;
+  padding-bottom: 1rem;
+}
+
+h4 {
+color: orange;
+
+
+}
+
+
+.nav-main-item {
+	display: inline-block;
+	color: white;
+	background-color: rgb(250,100,75);
+	font-size: 1.5rem;
+	padding: 0.25rem 0.5rem;
+	text-decoration: none;
+	transition: background-color 0.5s ease-out;
+  text-align: center;
+}
+
+
+.bg2 {
+   border: 1px solid white;
+   background-color: orange;
+}
+
+.bg3 {
+   border: 1px solid white;
+   background-color: orange;
+
+}
+
+.nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
+	color: white;
+	background-color: teal;
+}
+
+.text{
+  text-decoration: none;
+  color: teal;
+}
+
+.text:active, .text:hover, .text:focus {
+	color: rgb(110,110,110);
+}
+
+section:not([id]) {
+  margin: 5em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: rgb(208,208,208);
+  padding: 0.2em 0.75em;
+
+}
+
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+a { color: white;
+    text-decoration: none;
+}
+
+
+.button-nav {
+
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: orange;
+  border-radius: 0.25em;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+
+}
+
+a:active {
+    color:white;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(210,210,210);
+
+}
+
+.button-nav-cancel{
+
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: red;
+  border-radius: 0.25em;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+
+}
+
+.button-nav-cancel:hover, .button-nav-cancel:focus {
+  background-color: rgb(210,210,210);
+
+}
+
+.in-text{
+	color: orange;
+  transition: color 0.25s;
+}
+
+.in-text:active, .in-text:hover, .in-text:focus {
+	color: rgb(50,0,0);
+  font-style: italic;
+}
+
+
+.button-submit{
+  color:white;
+	background-color: orange;
+}
+.button-submit:hover, .button-submit:focus {
+	color:white;
+	background-color:rgb(271,141,5);
+}
+
+.button-reset{
+  color:white;
+	background-color:rgb(170,170,170);
+}
+.button-reset:hover, .button-reset:focus {
+	color:white;
+	background-color:rgb(150,150,150);
+}
+
+
+.box-length{
+
+  width: 50%;
+   padding: 5px 5px;
+   margin: 5px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+li{
+    list-style: none;
+    margin: 20px 0;
+}
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+h5{
+  color:orange;
+  font-size: 4rem;
+  font-family: "Hind-SemiBold", Verdana, sans-serif;
+	margin: 1rem;
+}
+
+.paragraphs{
+
+  font-size: 1rem;
+  font-family: "Hind-Regular", Verdana, sans-serif;
+	margin: 0.5rem;
+}
+
+
+
+.bulleted-lists{
+    list-style:initial;
+    font-family: "Hind-Regular", Verdana, sans-serif;
+}
+
+.numbered-lists{
+    list-style:decimal;
+    font-family: "Hind-Regular", Verdana, sans-serif;
+}
+
+/*
+  COMBINED ELEMENTS -------------------
+*/
+
+.nav-main-i{
+	display: inline-block;
+  font-family: "Hind-SemiBold", Verdana, sans-serif;
+	color: Black;
+	background-color: white;
+	font-size: 1.5rem;
+	padding: 0.25rem 0.5rem;
+	text-decoration: none;
+	transition: background-color 0.25s ease-out;
+  text-align: center;
+
+}
+
+.nav-main-i:active, .nav-main-i:hover, .nav-main-i:focus {
+	color:white ;
+	background-color: orange;
+}
+
+.bg10{
+   border: 1px solid white;
+   background-color: white;
+}
+
+.style{
+   width:300px;
+   height:300px;
+}
+
+.style2{
+width: 20rem;
+}
+
+.style3{
+width: 10rem;
+height: 10rem;
+}
+
+ul.Dishes li {
+  display: inline-block;
+   vertical-align: top;
+}
+
+
+
+
+[class ^='grid-col-'] {
+  float: left;
+}
+
+meta {
+  display:none;
+}
+
+.grid-row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media (min-width: 30em){
+  .grid-col-1of5 {
+    width: 20%
+  }
+}
+
+@media (max-width: 30em) {
+  .grid-col-1of5 {
+    width: 100%
+  }
+}
+
+.container .block {
+  height: 50px;
+
+}
+.container .block:nth-of-type(even) {
+  background-color: orange;
+}
+.container .block:nth-of-type(odd) {
+  background-color: rgb(210, 210, 210);
+}
+
+.colour-box{
+float: left;
+ width: 100px;
+ height: 100px;
+ margin: 3px;
+
+}
+.teal {
+  background: #61d2eb;
+}
+
+.orange {
+  background: #faa000;
+}
