@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+
+      <meta charset="utf-8">
+      <link href="css/main.css" rel="stylesheet">
+      <link href="css/flexbox.css " rel="stylesheet">
+
+    <title>Profile</title>
+
+  </head>
+
+
+<body>
+
+
+  <div class="wrapper">
+    <nav class="navbar">
+<a href="home.html"> <img src="img/logo.png" alt="logo for the company home cooking" class="logo-style"></a>
+
+
+
+     <ul class="nav-text">
+        <li><a class="navtxt" href="Chefs.html">Chefs</a> <li>
+        <li><a class="navtxt" href="Cuisines.html">Cuisines</a></li>
+        <li><a class="navtxt" href="bookingpage.html">Booking</a></li>
+        <li><a class="navtxt" href="reseration.html">Reservation</a></li>
+    </ul>
+
+
+    <div class="searchbar">
+    <form class="search-form">
+      <input type ="text" placeholder="Search">
+      <nav class="button">
+        <a class="button-text"href="combo1.html">Search</a>
+      </form>
+    </nav>
+    </div>
+
+</nav>
+</div>
+
+
+
+<div class="first-element">
+
+
+  <div id="content-reservation">
+
+
+
+    <div class="ordertitle changeordtitle">  <h1> Reservation Information</h1></div>
+
+    <div class ="reservationinfo changeresinfo">
+<ul><li> Four Dishes Combo</li>
+  <li>Self Provided ingredients</li>
+<li><p>Nov 18, 18:30</p></li></ul>
+    </div>
+
+
+    <div class="customertitle changecustitle">  <h1> Customer Information</h1></div>
+
+    <div class ="customerinfo changecusinfo">
+<ul><li>Name: Karen Wong</li>
+  <li>Phone#: (778)456-7890</li>
+  <li>Address: 45612 Hap Ave., Burnaby, BC </li>
+  <li>Card Info:6610-****-****-**12 </li>
+</ul>
+    </div>
+
+            <div class= "editbutton change-editbutton">
+            <nav class="cancel-button-container">
+              <a class="action-button"href="cancel.html">Cancel Booking</a>
+            </form>
+            </nav>
+          </div>
+
+
+
+
+
+
+          </div>
+          </div>
+
+
+
+
+
+<section class = "footer-wrapper">
+  <nav class="nav-footer">
+  <ul>
+  <li>Contact Us: (778)123-4567</li>
+  <li>Address: 123 Address St, Vancouver</li>
+  <li><a href="styleGuide.html">Style Guide</a></li>
+  <li><a href="Citations.html">Citations</a></li>
+</ul>
+</nav>
+</section>
+
+
+
+
+
+</body>
+</html>
