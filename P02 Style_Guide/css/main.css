@@ -5,7 +5,16 @@ body{
 
 p{
   Font-family: "Hind", sans-serif;
-  color: #736C60
+  color: #a7a7a7
+}
+
+h5{
+  color:#a7a7a7;
+  font-family: "Hind-Medium", sans-serif;
+  display: flex;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .wrapper{
@@ -646,6 +655,15 @@ max-height: 800px;
 
 }
 
+.review h2{
+  color:#a7a7a7;
+  font-family: "Hind-Medium", sans-serif;
+  display: flex;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+
 
 .scroll{
   background-color: #ccc;
@@ -657,9 +675,22 @@ max-height: 800px;
 
 }
 
+.scroll p{
+  color: white;
+  font-family: "Hind-Medium", sans-serif;
+  display: flex;
+  padding-left: 2rem;
+}
 
-
-
+.scroll h2{
+    color: white;
+    font-family: "Hind-SemiBold", sans-serif;
+    display: flex;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: -.8rem;
+}
 
 
 
