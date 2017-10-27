@@ -1,0 +1,27 @@
+@font-face {
+font-family: 'Hind';
+font-style: normal;
+font-weight: normal;
+src: url('../font/Hind-Regular.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'Hind-Light';
+font-style: normal;
+font-weight: normal;
+src: url('../font/Hind-Light.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'Hind-SemiBold';
+font-style: normal;
+font-weight: normal;
+src: url('../font/Hind-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'Hind-Medium';
+font-style: normal;
+font-weight: normal;
+src: url('../font/Hind-Medium.ttf') format('truetype');
+}
