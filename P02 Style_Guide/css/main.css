@@ -17,6 +17,15 @@ h5{
   margin-bottom: 1rem;
 }
 
+h6{
+  color:#a7a7a7;
+  font-family: "Hind", sans-serif;
+  display: flex;
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
 .wrapper{
   width: 100%;
   margin: 0 auto;
@@ -926,10 +935,11 @@ label{
 }
 
 section:not([id]){
-  margin:-2rem 0;
+  margin:1rem 0;
   padding: 0.5em 0;
   border-top: 1px solid #a7a7a7;
 }
+
 
 .nav-footer a{
   text-decoration: none;
@@ -943,4 +953,21 @@ section:not([id]){
 .nav-footer a:hover{
   color: orange;
   width: 100%;
+}
+
+.colour-box{
+float: left;
+ width: 100px;
+ height: 100px;
+ margin: 3px;
+
+
+}
+
+.grey {
+  background: #a7a7a7;
+}
+
+.orange {
+  background: orange;
 }
