@@ -139,7 +139,7 @@ opacity: 0.7;
 
 padding-top: 0rem;
   margin-top: 2rem;
-  padding-bottom: -8rem;
+  padding-bottom: 8rem;
   height: 100%;
   color:black;
 
@@ -217,8 +217,6 @@ padding-top: 0rem;
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
   font-family: "Hind-SemiBold", sans-serif;
-  margin-left: 3rem;
-  margin-top: 1rem;
   }
 
   .action-button-container:hover, .action-button-container:focus {
@@ -867,12 +865,12 @@ padding-top: 5rem;
  box-sizing:content-box;
 }
 
-
 h3{
   text-align:center;
   color: #c5c5c5;
-  font-family: "Hind-SemiBold", sans-serif;
+  font-family: "Hind", sans-serif;
   padding: 1.6rem;
+
   border: 0.1em solid orange;
  border-radius: 5px;
 }
