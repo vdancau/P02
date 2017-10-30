@@ -217,6 +217,8 @@ padding-top: 0rem;
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
   font-family: "Hind-SemiBold", sans-serif;
+  margin-left: 3.5rem;
+  margin-top: 1.5rem;
   }
 
   .action-button-container:hover, .action-button-container:focus {
